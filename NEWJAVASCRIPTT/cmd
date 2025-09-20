@@ -1,0 +1,55 @@
+📂 Navigation & File Management
+Command	Purpose
+pwd	Shows the current directory path
+ls	Lists files and folders
+ls -l	Lists files with details (permissions, size, date)
+ls -a	Lists all files (including hidden ones)
+cd foldername	Moves into a folder
+cd ..	Moves one level up
+cd ~	Goes to home directory
+cd /	Goes to root directory
+clear	Clears the terminal screen
+
+
+
+
+
+📄 Create, Edit & Delete Files
+Command	Purpose
+touch file.txt	Creates an empty file
+mkdir foldername	Creates a new folder
+rm file.txt	Deletes a file
+rm -r foldername	Deletes a folder and its contents
+cp file1.txt file2.txt	Copies file1 to file2
+mv oldname.txt newname.txt	Renames or moves a file
+
+
+
+
+
+
+🖥 System & Info Commands
+Command	Purpose
+whoami	Shows your username
+uname -m	Shows your Mac's CPU architecture
+uname -a	Shows system details
+top	Shows running processes (press q to quit)
+ps aux	Lists all running processes
+kill PID	Kills a process (replace PID with process ID)
+df -h	Shows disk usage
+uptime	Shows how long your Mac has been running
+
+🌐 Network Commands
+Command	Purpose
+ifconfig	Shows network interface details (like IP)
+ping google.com	Checks internet connectivity
+curl example.com	Fetches webpage HTML
+netstat -an	Shows network connections
+
+🎨 Fun & Useful Tricks
+Command	Purpose
+say "Hello World"	Makes your Mac speak
+caffeinate	Prevents your Mac from sleeping
+open .	Opens the current folder in Finder
+open file.txt	Opens file in default app
+open -a "Google Chrome"	Opens Chrome
